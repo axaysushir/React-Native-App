@@ -46,7 +46,7 @@ export default class App extends React.Component {
     this.handleUpdateLocation('Kiev');
   }
 
-  // Parse of date
+  // Parse of date and change it to the current location updated time
   handleDate = date => moment(date).format("hh:mm:ss");
 
   // Update current location
