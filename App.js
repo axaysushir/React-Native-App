@@ -80,13 +80,13 @@ export default class App extends React.Component {
     });
   };
 
-  // RENDERING
+  // RENDERING View of the Weather app
   render() {
 
     // GET values of state
     const { loading, error, location, weather, temperature, created } = this.state;
 
-    // Activity
+    // Activity 
     return (
       <KeyboardAvoidingView style={styles.container} behavior="padding">
 
