@@ -1,4 +1,4 @@
-
+// expoprt icons as per weather
 const icons = {
   Clear: '☀️',
   Hail: '⛆',

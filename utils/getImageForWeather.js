@@ -1,3 +1,4 @@
+// Export all images for weather
 const images = {
   Clear: require('../assets/clear.png'),
   Hail: require('../assets/hail.png'),
