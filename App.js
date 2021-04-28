@@ -70,7 +70,7 @@ export default class App extends React.Component {
 
 
       } catch (e) {
-
+        // if any error during data fetch show here
         this.setState({
           loading: false,
           error: true,
